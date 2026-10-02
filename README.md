@@ -2,7 +2,7 @@
 
 # Computer Vision Projects
 
-**A food image classifier trained with transfer learning, a data-cleaning pipeline for web-scraped images, and real-time webcam face detection.**
+**A food image classifier trained with transfer learning, a data-cleaning pipeline for web-scraped images, real-time webcam face detection, and Unity AR face-tracking coursework.**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
@@ -89,6 +89,12 @@ python face_detection_webcam.py      # press "q" to quit
 ```
 
 > OpenCV 5.x removed the Haar Cascade classifier, so `requirements.txt` pins OpenCV 4.x.
+
+## 4. Unity AR Face Tracking (Android Coursework)
+
+A professor-guided AR Foundation / ARCore phone exercise: face masks, fox-style accessories and tap-to-switch materials. The original classroom exercise was tried on a phone. The scripts published here are an AI-assisted reconstruction, not the recovered original Unity project; this reconstruction still requires Unity compilation and device testing.
+
+**[C# scripts and Android setup guide](unity-ar-face-tracking/README.md)** - historical Unity 2020.3 / AR Foundation 4.1 lesson environment. No professor PDFs or third-party model assets are redistributed.
 
 ## Learning notebooks
 
